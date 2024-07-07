@@ -1,0 +1,11 @@
+if exists (select top 1 1 from INFORMATION_SCHEMA.TABLES where TABLE_NAME='Testing')
+
+Begin 
+Drop table Testing
+
+End
+
+create table Testing(Id int, Step varchar(200))
+
+Insert into Testing(Id,Step)
+Select 1 as Id, 'Test1' as Step

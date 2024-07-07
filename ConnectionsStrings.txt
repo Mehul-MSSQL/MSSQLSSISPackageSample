@@ -1,0 +1,1 @@
+ConnectionString="Data Source=#{ServerName}#;Initial Catalog=#{InitialCatalog}#;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;"
